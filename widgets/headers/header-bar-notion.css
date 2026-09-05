@@ -3,7 +3,7 @@
   align-items: center;
   gap: 10px;
   padding: 12px 16px;
-  background: var(--awdd-black);
+  background: transparent;
   border-radius: 10px;
   border: 1px solid var(--awdd-navy);
   color: var(--awdd-gold);
