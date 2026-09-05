@@ -1,0 +1,37 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  letter-spacing: .4px;
+  width: fit-content;
+  border: 1px solid transparent;
+}
+
+/* SUCCESS — Aqua */
+.badge.success {
+  background: var(--awdd-navy);
+  color: var(--awdd-aqua);
+  border-color: var(--awdd-aqua);
+}
+
+/* WARNING — Gold */
+.badge.warning {
+  background: var(--awdd-black);
+  color: var(--awdd-gold);
+  border-color: var(--awdd-gold);
+}
+
+/* DANGER — Rose */
+.badge.danger {
+  background: var(--awdd-black);
+  color: var(--awdd-rose);
+  border-color: var(--awdd-rose);
+}
+
+.badge i {
+  font-size: 14px;
+}

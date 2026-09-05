@@ -1,0 +1,22 @@
+.icon-btn {
+  width: 52px;
+  height: 52px;
+  background: linear-gradient(135deg, var(--awdd-black), var(--awdd-navy));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--awdd-aqua);
+  transition: .2s ease;
+}
+
+.icon-btn:hover {
+  background: linear-gradient(135deg, var(--awdd-navy), var(--awdd-violet));
+  border-color: var(--awdd-rose);
+  transform: translateY(-2px);
+}
+
+.icon-btn i {
+  color: var(--awdd-gold);
+  font-size: 22px;
+}

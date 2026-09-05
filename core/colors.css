@@ -1,0 +1,12 @@
+:root {
+  --awdd-navy: #0D1C38;
+  --awdd-aqua: #2BABD9;
+  --awdd-violet: #6A5976;
+  --awdd-rose: #C53A65;
+  --awdd-black: #0B0C1D;
+  --awdd-gold: #CDA95F;
+
+  /* Optional neutrals */
+  --awdd-white: #F5F5F5;
+  --awdd-gray: #888888;
+}

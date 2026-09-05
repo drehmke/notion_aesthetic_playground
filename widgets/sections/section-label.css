@@ -1,0 +1,18 @@
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  color: var(--awdd-violet);
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  letter-spacing: .5px;
+  border-bottom: 1px solid var(--awdd-aqua);
+  margin-bottom: 14px;
+  width: fit-content;
+}
+
+.section-label i {
+  font-size: 18px;
+  color: var(--awdd-rose);
+}

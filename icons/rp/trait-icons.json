@@ -1,0 +1,17 @@
+{
+  "category": "Traits",
+  "palette": {
+    "navy": "#0D1C38",
+    "aqua": "#2BABD9",
+    "violet": "#6A5976",
+    "rose": "#C53A65",
+    "black": "#0B0C1D",
+    "gold": "#CDA95F"
+  },
+  "icons": [
+    { "name": "Bolt", "fa": "fa-bolt", "color": "aqua" },
+    { "name": "Fire", "fa": "fa-fire", "color": "rose" },
+    { "name": "DNA", "fa": "fa-dna", "color": "violet" },
+    { "name": "Sparkles", "fa": "fa-sparkles", "color": "gold" }
+  ]
+}

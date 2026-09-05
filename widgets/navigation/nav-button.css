@@ -1,0 +1,25 @@
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(90deg, var(--awdd-black), var(--awdd-navy));
+  color: var(--awdd-gold);
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  letter-spacing: .5px;
+  border: 1px solid var(--awdd-aqua);
+  transition: .2s;
+  width: fit-content;
+}
+
+.nav-btn:hover {
+  background: linear-gradient(90deg, var(--awdd-navy), var(--awdd-violet));
+  border-color: var(--awdd-rose);
+  color: var(--awdd-aqua);
+}
+
+.nav-btn i {
+  font-size: 18px;
+}

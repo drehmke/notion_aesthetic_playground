@@ -1,0 +1,15 @@
+.icon-btn-notion {
+  width: 44px;
+  height: 44px;
+  background: var(--awdd-black);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--awdd-navy);
+}
+
+.icon-btn-notion i {
+  color: var(--awdd-aqua);
+  font-size: 20px;
+}

@@ -1,0 +1,18 @@
+.nav-btn-notion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--awdd-black);
+  color: var(--awdd-gold);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--awdd-navy);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  width: fit-content;
+}
+
+.nav-btn-notion i {
+  font-size: 16px;
+  color: var(--awdd-aqua);
+}

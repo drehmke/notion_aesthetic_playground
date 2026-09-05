@@ -1,0 +1,35 @@
+/* Shared rules for all Notion-optimized widgets */
+
+:root {
+  /* AWDD palette */
+  --awdd-navy: #0D1C38;
+  --awdd-aqua: #2BABD9;
+  --awdd-violet: #6A5976;
+  --awdd-rose: #C53A65;
+  --awdd-black: #0B0C1D;
+  --awdd-gold: #CDA95F;
+}
+
+/* Notion embed-safe defaults */
+body, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+/* Prevent overflow inside Notion iframes */
+* {
+  max-width: 100%;
+}
+
+/* Tighter spacing for Notion widgets */
+.notion-widget {
+  padding: 6px;
+  margin: 0;
+}
+
+/* Subtle border for embed clarity */
+.notion-widget {
+  border-radius: 8px;
+}

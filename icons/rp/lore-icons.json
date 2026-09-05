@@ -1,0 +1,18 @@
+{
+  "category": "Lore",
+  "palette": {
+    "navy": "#0D1C38",
+    "aqua": "#2BABD9",
+    "violet": "#6A5976",
+    "rose": "#C53A65",
+    "black": "#0B0C1D",
+    "gold": "#CDA95F"
+  },
+  "icons": [
+    { "name": "Scroll", "fa": "fa-scroll", "color": "rose" },
+    { "name": "Landmark", "fa": "fa-landmark", "color": "gold" },
+    { "name": "Mountain City", "fa": "fa-mountain-city", "color": "aqua" },
+    { "name": "Tree City", "fa": "fa-tree-city", "color": "violet" },
+    { "name": "Globe", "fa": "fa-globe", "color": "navy" }
+  ]
+}

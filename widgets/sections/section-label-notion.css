@@ -1,0 +1,18 @@
+.section-label-notion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  color: var(--awdd-violet);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  letter-spacing: .4px;
+  border-bottom: 1px solid var(--awdd-navy);
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.section-label-notion i {
+  font-size: 16px;
+  color: var(--awdd-rose);
+}

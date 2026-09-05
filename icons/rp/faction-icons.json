@@ -1,0 +1,17 @@
+{
+  "category": "Factions",
+  "palette": {
+    "navy": "#0D1C38",
+    "aqua": "#2BABD9",
+    "violet": "#6A5976",
+    "rose": "#C53A65",
+    "black": "#0B0C1D",
+    "gold": "#CDA95F"
+  },
+  "icons": [
+    { "name": "Shield", "fa": "fa-shield-halved", "color": "aqua" },
+    { "name": "Dragon", "fa": "fa-dragon", "color": "rose" },
+    { "name": "Crown", "fa": "fa-crown", "color": "gold" },
+    { "name": "Flag", "fa": "fa-flag", "color": "navy" }
+  ]
+}

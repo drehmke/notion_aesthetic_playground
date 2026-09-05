@@ -1,0 +1,30 @@
+.header-bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 26px;
+  background: linear-gradient(
+    90deg,
+    var(--awdd-black),
+    var(--awdd-navy),
+    var(--awdd-violet)
+  );
+  border-radius: 14px;
+  border: 1px solid var(--awdd-aqua);
+  color: var(--awdd-gold);
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  letter-spacing: .6px;
+  width: fit-content;
+  transition: .2s ease;
+}
+
+.header-bar:hover {
+  border-color: var(--awdd-rose);
+  color: var(--awdd-aqua);
+}
+
+.header-bar i {
+  font-size: 24px;
+  color: var(--awdd-aqua);
+}

@@ -1,0 +1,27 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth transitions for all widgets */
+.widget {
+  transition: 0.2s ease;
+}
+
+/* Default font family */
+body {
+  font-family: Inter, sans-serif;
+  background: var(--awdd-black);
+  color: var(--awdd-white);
+}
+
+/* Utility spacing */
+.pad-sm { padding: 6px; }
+.pad-md { padding: 12px; }
+.pad-lg { padding: 20px; }
+
+.mg-sm { margin: 6px; }
+.mg-md { margin: 12px; }
+.mg-lg { margin: 20px; }

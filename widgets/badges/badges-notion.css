@@ -1,0 +1,37 @@
+.badge-notion {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+  letter-spacing: .3px;
+  width: fit-content;
+  border: 1px solid transparent;
+}
+
+/* SUCCESS — Aqua */
+.badge-notion.success {
+  background: var(--awdd-black);
+  color: var(--awdd-aqua);
+  border-color: var(--awdd-navy);
+}
+
+/* WARNING — Gold */
+.badge-notion.warning {
+  background: var(--awdd-black);
+  color: var(--awdd-gold);
+  border-color: var(--awdd-navy);
+}
+
+/* DANGER — Rose */
+.badge-notion.danger {
+  background: var(--awdd-black);
+  color: var(--awdd-rose);
+  border-color: var(--awdd-navy);
+}
+
+.badge-notion i {
+  font-size: 14px;
+}
